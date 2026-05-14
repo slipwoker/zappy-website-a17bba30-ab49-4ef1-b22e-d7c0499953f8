@@ -1,0 +1,23 @@
+# Render static site routing configuration
+# Generated: 2026-05-14T05:30:13.293Z
+# More specific routes should be listed before catch-all routes
+
+routes:
+  - type: rewrite
+    source: /product/*
+    destination: /product.html
+  - type: rewrite
+    source: /category/*
+    destination: /category.html
+  - type: rewrite
+    source: /en/product/*
+    destination: /product.html
+  - type: rewrite
+    source: /en/category/*
+    destination: /category.html
+  - type: rewrite
+    source: /ru/product/*
+    destination: /product.html
+  - type: rewrite
+    source: /ru/category/*
+    destination: /category.html
