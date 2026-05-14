@@ -2120,6 +2120,7 @@ html[dir="rtl"] body {
 
 
 
+
 <!-- i18next Multi-Language Support -->
 <script>
 (function() {
@@ -2329,7 +2330,7 @@ html[dir="rtl"] body {
       "home_h2_6": "אמון שנבנה עם כל כלב ובעליו.",
       "home_h2_7": "מוכנים לדבר איתנו?",
       "home_h3_8": "ברוכים הבאים לגורים בכפר",
-      "home_h3_9": "חנות ציוד ובית גידול מוסמך - הכל במקום אחד, עם לב גדול וטיפול אמיתי.",
+      "home_h3_9": "חנות ציוד ובית גידול מוסמך - הכל במקום אחד, עם לב גדול וטיפול אמיתי",
       "home_p_20": "בגורים בכפר תמצאו הכל תחת קורת גג אחת - בית גידול משפחתי לכלבים, בו הגורים גדלים באווירה כפרית עם חשיפה נכונה התורמת לבריאותם הפיזית והנפשית. אנו מעניקים יחס חם ואוהב, סביבת מגורים בטוחה, חצר גדולה לפריקת אנרגיה, ותזונה איכותית לצד טיפולים וטרינריים שוטפים. בנוסף, במקום חנות ציוד לחיות עם מוצרים איכותיים המותאמים אישית לכל סוגי הכלבים, \n\nכולל שירות משלוחים נוח עד הבית.",
       "home_p_21": "מזון איכותי, אביזרים, צעצועים, קולרים ורצועות - הכל נבחר בקפידה עבור הכלב שלך. חנות ציוד לכלבים קרוב אליך, עם ידע מקצועי ושירות מותאם אישית.",
       "home_p_22": "<a href=\"/products\" class=\"index-service-card-link btn btn-ghost\" data-native-element=\"true\" data-element-id=\"btn-1777454028962-22fzjwgjf\" data-element-type=\"button\" style=\"outline: none; border-color: transparent !important; color: var(--primary-color, var(--primary, #8B0000)) !important; background-color: transparent !important; background-image: none !important;\">לחנות שלנו &gt;</a><span>&nbsp;</span>",
@@ -4807,7 +4808,7 @@ html[dir="rtl"] body {
       "home_h2_6": "Trust built with every dog and their owner.",
       "home_h2_7": "Ready to Talk with Us?",
       "home_h3_8": "Welcome to Puppies in the Village",
-      "home_h3_9": "Licensed pet supply store and breeding facility - everything in one place, with a big heart and genuine care.",
+      "home_h3_9": "Licensed pet supply store and breeding facility - everything in one place, with a big heart and genuine care",
       "home_p_20": "At Puppies in the Village you'll find everything under one roof - a family dog breeding facility where puppies grow up in a rural atmosphere with proper exposure that contributes to their physical and mental health. We provide warm and loving care, a safe living environment, a large yard for energy release, and quality nutrition alongside routine veterinary care. Additionally, on-site pet supply store with quality products personally tailored for all types of dogs,\n\nincluding convenient home delivery service.",
       "home_p_21": "Quality food, accessories, toys, collars and leashes - everything carefully selected for your dog. A dog supplies store close to you, with professional knowledge and personalized service.",
       "home_p_22": "To our store &gt;&nbsp;",
@@ -7285,7 +7286,7 @@ html[dir="rtl"] body {
       "home_h2_6": "Доверие, построенное с каждой собакой и её хозяином.",
       "home_h2_7": "Готовы поговорить с нами?",
       "home_h3_8": "Добро пожаловать в גורים בכפר",
-      "home_h3_9": "Лицензированный магазин оборудования и питомник - всё в одном месте, с большим сердцем и настоящей заботой.",
+      "home_h3_9": "Лицензированный магазин оборудования и питомник - всё в одном месте, с большим сердцем и настоящей заботой",
       "home_p_20": "В גורים בכפר вы найдёте всё под одной крышей - семейный питомник для собак, где щенки растут в деревенской атмосфере с правильной социализацией, способствующей их физическому и психическому здоровью. Мы обеспечиваем тёплое и любящее отношение, безопасную среду обитания, большой двор для выплеска энергии, и качественное питание наряду с регулярным ветеринарным уходом. Кроме того, на месте находится магазин товаров для животных с качественными продуктами, индивидуально подобранными для всех типов собак, \n\nвключая удобную службу доставки на дом.",
       "home_p_21": "Качественный корм, аксессуары, игрушки, ошейники и поводки - всё тщательно отобрано для вашей собаки. Магазин товаров для собак рядом с вами, с профессиональными знаниями и персонализированным обслуживанием.",
       "home_p_22": "В наш магазин &gt;&nbsp;",
@@ -10341,10 +10342,6 @@ html[dir="rtl"] body {
     var currentLang = zappyI18n.language;
     var currentInfo = languageInfo[currentLang] || { nativeName: currentLang, flagImg: '' };
     
-    var langSwitcher = document.querySelector('.lang-switcher');
-    var iconColor = langSwitcher ? langSwitcher.getAttribute('data-icon-color') : 'currentColor';
-    if (!iconColor) iconColor = 'currentColor';
-    
     var optionsHtml = availableLanguages
       .filter(function(lang) { return lang !== currentLang; })
       .map(function(lang) {
@@ -10358,25 +10355,13 @@ html[dir="rtl"] body {
     li.className = 'mobile-lang-menu';
     li.innerHTML =
       '<button class="mobile-lang-toggle" type="button">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="' + iconColor + '" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"/></svg>' +
+        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"/></svg>' +
         '<span>' + currentInfo.nativeName + '</span>' +
         '<svg class="mobile-lang-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 4 6 8 10 4"></polyline></svg>' +
       '</button>' +
       '<div class="mobile-lang-options">' + optionsHtml + '</div>';
     
     navMenu.appendChild(li);
-    
-    // Match nav link color for visual consistency
-    var firstNavLink = navMenu.querySelector('li:not(.mobile-lang-menu) > a');
-    if (firstNavLink) {
-      var navLinkColor = window.getComputedStyle(firstNavLink).color;
-      if (navLinkColor && navLinkColor !== 'rgba(0, 0, 0, 0)') {
-        li.style.color = navLinkColor;
-        // Update globe SVG fill to match nav link color
-        var globeSvg = li.querySelector('.mobile-lang-toggle > svg:first-child');
-        if (globeSvg) globeSvg.setAttribute('fill', navLinkColor);
-      }
-    }
     
     console.log('[i18n] Mobile language submenu created in hamburger menu');
   }
