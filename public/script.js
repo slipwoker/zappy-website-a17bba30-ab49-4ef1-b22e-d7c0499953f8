@@ -12479,12 +12479,12 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '19') return;
+    if (existing && existing.getAttribute('data-v') === '20') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '19');
+    style.setAttribute('data-v', '20');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
@@ -12492,6 +12492,10 @@ function fixContrast(){
         'html[dir="ltr"] .nav-container > .nav-menu > li,body[dir="ltr"] .nav-container > .nav-menu > li,html[dir="ltr"] .nav-right-group > .nav-menu > li,body[dir="ltr"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
         'html[dir="ltr"] .nav-container > .lang-switcher,body[dir="ltr"] .nav-container > .lang-switcher,html[dir="ltr"] .nav-container > .nav-ecommerce-icons,body[dir="ltr"] .nav-container > .nav-ecommerce-icons,html[dir="ltr"] .nav-right-group > .lang-switcher,body[dir="ltr"] .nav-right-group > .lang-switcher,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons{order:2!important;flex:0 0 auto!important;min-width:max-content!important}' +
         'html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left{margin-inline-start:auto!important;flex:0 0 auto!important;min-width:max-content!important}' +
+        'html[dir="rtl"] .nav-container > .nav-menu,body[dir="rtl"] .nav-container > .nav-menu,html[dir="rtl"] .nav-right-group > .nav-menu,body[dir="rtl"] .nav-right-group > .nav-menu{flex:1 1 0!important;min-width:0!important;max-height:44px!important;overflow:visible!important;flex-wrap:wrap!important;align-items:center!important;align-content:flex-start!important;row-gap:4px!important}' +
+        'html[dir="rtl"] .nav-container > .nav-menu > li,body[dir="rtl"] .nav-container > .nav-menu > li,html[dir="rtl"] .nav-right-group > .nav-menu > li,body[dir="rtl"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
+        'html[dir="rtl"] .nav-container > .nav-ecommerce-icons,body[dir="rtl"] .nav-container > .nav-ecommerce-icons,html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons,body[dir="rtl"] .nav-right-group > .nav-ecommerce-icons,html[dir="rtl"] .nav-container > .nav-ecommerce-icons.nav-icons-left,body[dir="rtl"] .nav-container > .nav-ecommerce-icons.nav-icons-left,html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,body[dir="rtl"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left{flex:0 0 auto!important;min-width:max-content!important}' +
+        'html[dir="ltr"] .nav-search-btn,body[dir="ltr"] .nav-search-btn{position:absolute!important;left:auto!important;right:4px!important}' +
         '.nav-right-group>.nav-menu,.nav-container>.nav-menu{min-width:0!important;flex-shrink:1!important}' +
         'html[dir="ltr"] .zappy-products-dropdown > a .dropdown-arrow,body[dir="ltr"] .zappy-products-dropdown > a .dropdown-arrow{display:inline-block!important;flex:0 0 auto!important;margin-inline-start:6px!important}' +
         'html[dir="ltr"] .zappy-catalog-menu,html[dir="ltr"] .zappy-catalog-menu .catalog-menu-container,html[dir="ltr"] .zappy-catalog-menu .catalog-menu-categories{direction:ltr!important}' +
