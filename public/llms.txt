@@ -1,0 +1,125 @@
+# גורים בכפר — Generative Engine Optimization Map
+
+> A multi-service pet business focused on dogs, offering a pet supply store, a dog boarding facility (kennel), and a dog breeding operation with puppies available for sale. The business caters to dog owners and dog lovers, combining retail, hospitality for pets, and breeding under one roof.
+
+---
+
+## Pages
+
+### גורים בכפר - הכל לכלב שלך במקום אחד
+https://gurim-bakfar-1.zappy5.app
+חנות ציוד וגורים לאימוץ — גורים בכפר הוא היעד המושלם לכל בעל כלב. בואו לגלות עולם שלם של אהבה לכלבים. הצטרפו אלינו עוד היום!
+
+### גורים בכפר - הכל לכלב שלך במקום אחד
+https://gurim-bakfar-1.zappy5.app/our-cubs
+בית גידול כלבים למכירה עם גורים בריאים, מחוסנים ומלאי אהבה. גורים בכפר מגדל בסטנדרטים הגבוהים ביותר כדי שהגור הבא שלכם יגיע אליכם מוכן ומאושר.
+
+### Products
+https://gurim-bakfar-1.zappy5.app/products
+המוצרים שלנו - גורים בכפר
+
+### Cart
+https://gurim-bakfar-1.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://gurim-bakfar-1.zappy5.app/checkout
+תשלום
+
+### Login
+https://gurim-bakfar-1.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://gurim-bakfar-1.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://gurim-bakfar-1.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://gurim-bakfar-1.zappy5.app/product/:slug
+פרטי המוצר - גורים בכפר
+
+### Category
+https://gurim-bakfar-1.zappy5.app/category/:slug
+מוצרים - גורים בכפר
+
+### מדריך לטיפול בגור חדש
+https://gurim-bakfar-1.zappy5.app/new-resident-guide
+גורים בכפר - מדריך לטיפול בגור חדש
+
+### דברו איתנו — אנחנו כאן בשבילכם — גורים בכפר
+https://gurim-bakfar-1.zappy5.app/contact
+יש לכם שאלה על פנסיון כלבים, גורים למכירה או ציוד לכלב? צרו קשר עם צוות גורים בכפר ונשמח לעזור לכם למצוא בדיוק את מה שהכלב שלכם צריך. מחכים לשמוע מכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://gurim-bakfar-1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://gurim-bakfar-1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://gurim-bakfar-1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+**Total active products: 3**
+
+### רצועה
+https://gurim-bakfar-1.zappy5.app/product/rtsvah-td9392
+- Price: 50.00 ILS
+- Availability: In stock
+- Category: קולרים ורצועות
+- Image: https://gurim-bakfar-1.zappy5.app/assets/image-product-image-1777452899918-d58srp.webp
+
+### קולר
+https://gurim-bakfar-1.zappy5.app/product/kvlr-ke21bi
+- Price: 100.00 ILS
+- Availability: In stock
+- Category: קולרים ורצועות
+- Image: https://gurim-bakfar-1.zappy5.app/assets/image-product-image-1777452489356-xpps0a.webp
+
+### סטיספקשן רגולר לכלב בוגר מגזע קטן 15 קילוגרם
+https://gurim-bakfar-1.zappy5.app/product/styspkshn-rgvlr-lklb-bvgr-mgza-ktn-15-kylvgrm-j3x104
+- Price: 300.00 ILS (sale, was 350.00 ILS)
+- Availability: In stock
+- Category: מזון
+- Description: כך וכך וכך
+- Image: https://gurim-bakfar-1.zappy5.app/assets/image-product-image-1777375508231-jvyimp.webp
+
+---
+
+# Business Context (for LLM understanding)
+
+## About גורים בכפר
+A multi-service pet business focused on dogs, offering a pet supply store, a dog boarding facility (kennel), and a dog breeding operation with puppies available for sale. The business caters to dog owners and dog lovers, combining retail, hospitality for pets, and breeding under one roof.
+
+## Services/Products
+- חנות חיות לכלבים
+- פנסיון כלבים
+- בית גידול למכירה
+
+## Target Audience
+בעלי כלבים
+
+## Industry
+שירותי חיות מחמד
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://gurim-bakfar-1.zappy5.app/sitemap.xml
+- Robots: https://gurim-bakfar-1.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://gurim-bakfar-1.zappy5.app/llms-full.txt
+- Products (JSON): https://gurim-bakfar-1.zappy5.app/products.json
+- Products (Google Merchant RSS): https://gurim-bakfar-1.zappy5.app/product-feed.xml
